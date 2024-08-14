@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#scoreboard {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+}
+
+#gameArea {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    border: 2px solid #fff;
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.paddle {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+}
+
+.player-color {
+    background-color: #4CAF50; /* Grün für den Spieler */
+    color: #4CAF50; /* Punktestand des Spielers in Grün */
+}
+
+.enemy-color {
+    background-color: #F44336; /* Rot für den Gegner */
+    color: #F44336; /* Punktestand des Gegners in Rot */
+}
+
+#playerPaddle {
+    left: 20px;
+}
+
+#enemyPaddle {
+    right: 20px;
+}
